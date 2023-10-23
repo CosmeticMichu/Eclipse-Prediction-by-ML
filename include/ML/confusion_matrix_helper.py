@@ -93,4 +93,4 @@ def make_confusion_matrix(cf,
 
     if title:
         plt.title(title)
-    plt.show()
+    # plt.show() # commented because of the savefig method calling to save plots
